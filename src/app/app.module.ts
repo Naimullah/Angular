@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { PostsComponent } from './posts/posts.component';
+import { PostListComponent } from './post-list/post-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent
+    ContactComponent,
+    PostsComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
